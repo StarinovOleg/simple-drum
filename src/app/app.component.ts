@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'piano-DJ';
+  public title: string = 'Drum and Fun!';
+
 }

@@ -1,0 +1,41 @@
+.background-image{
+  background-image: url('../../assets/img/piano.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 45%;
+  width:100%;
+  .background-drum{
+    background-image: url('../../assets/img/drum_case.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    padding-bottom: 25%;
+    top:10%;
+    left:37%;
+    width:25%;
+    position:absolute;
+  }
+  .bongo-left{
+    background-image: url('../../assets/img/bongo_left.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    padding-bottom: 10%;
+    top:45%;
+    left:17%;
+    width:10%;
+    position:absolute;
+  }
+  .bongo-right{
+    background-image: url('../../assets/img/bongo_left.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: cover;
+    padding-bottom: 10%;
+    top:45%;
+    right:17%;
+    width:10%;
+    position:absolute;
+  }
+}
